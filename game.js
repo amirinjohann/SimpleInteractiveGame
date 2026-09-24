@@ -1758,14 +1758,10 @@ function drawAbout() {
   ctx.fillStyle = '#fff';
   ctx.font = 'bold 28px monospace';
   ctx.textAlign = 'center';
-  ctx.fillText('About Us', canvas.width / 2, 100);
+  ctx.fillText('About Us', canvas.width / 2, 180);
   ctx.font = '18px monospace';
-  ctx.fillText('Created by: MUHAMMAD KHAIRULAMIRIN BIN JOHAN (2023816904)', canvas.width / 2, 160);
-  ctx.fillText('              AKHMAD ZAINUL MUTTAQIN BIN MOLYADI (2023663442)', canvas.width / 2, 185);
-  ctx.fillText('            NUR ANIS SYAFIKA BINTI ZULHAMIZI (2023406052)', canvas.width / 2, 210);
-  ctx.fillText('               NUR FATIN SYAZWANI BINTI MOHAMAD ZIN (2023406116)', canvas.width / 2, 235);
-  ctx.fillText('A simple pixel Forest Adventure Game.', canvas.width / 2, 295);
-  ctx.fillText('Built with JavaScript and Canvas.', canvas.width / 2, 325);
+  ctx.fillText('A simple pixel Forest Adventure Game.', canvas.width / 2, 250);
+  ctx.fillText('Built with JavaScript and Canvas.', canvas.width / 2, 285);
   ctx.font = '16px monospace';
   ctx.fillText('Press any key to return to menu.', canvas.width / 2, 360);
   ctx.textAlign = 'left';
